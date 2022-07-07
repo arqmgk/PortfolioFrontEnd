@@ -1,0 +1,52 @@
+# Empty CSS file for your own CSS
+*{
+    margin: 0px;
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#banner{
+    width: 100%fit-content;
+    height: fit-content;
+    background-color: blue;
+}
+imagen#imagen-b{
+    float: left;
+}
+.social-bar {
+    position: absolute;
+    right: 0%;
+    top: 3%;
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: row;
+    z-index: 100;
+    margin-left: 10em;
+}
+.retrato {
+    border-radius: 50%;
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+
+}
+.d-block w-100 {
+    position: relative;
+}
+.figcaption {
+    display: flex;
+    flex-flow: row;
+    margin-left: 50px;
+}
+.nombre {
+    justify-content: center;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+
+}
+#bank {
+    float: left;
+    width: 100%;
+}

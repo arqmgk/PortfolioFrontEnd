@@ -1,0 +1,83 @@
+# Empty CSS file for your own CSS
+*{
+    margin: 0px;
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#banner{
+    width: 100% fit-content;
+    height: fit-content;
+    background-color: blue;
+    position: relative;
+}
+imagen#imagen-b{
+    float: left;
+}
+.social-bar {
+    position: static;
+    display: flex-box;
+    font-size: 1.5rem;
+    flex-direction: row;
+    float: right;
+    
+}
+.retrato {
+    border-radius: 50%;
+    border: 7px solid#fff;
+    width: 12%;
+    height: auto;
+    position: absolute;
+    top: 290px;
+    left: 150px;
+    display: block;
+    z-index: 1;
+
+}
+.d-block w-100 {
+    position: relative;
+    width: 100% fit-content;
+}
+.figcaption {
+    display: flex;
+    flex-flow: row;
+    margin-left: 50px;
+}
+h4#name {
+    text-align: center;
+    display: block;
+    margin-top: 80px;
+    
+}
+.trabajo {
+    display: box;
+    float: left;
+}
+.circular-progress{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+}
